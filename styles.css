@@ -1,0 +1,128 @@
+
+
+header{
+    background-color: aquamarine;
+    height: 100vh;
+    font-family: monospace;
+    color: #fa8072;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+header h1{
+    margin: 0;
+    color: rgb(135, 193, 222);
+}
+a{
+    text-decoration: none;
+}
+
+.butt{
+    background-color: violet;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+
+}
+.butt:hover{
+    background-color: goldenrod;
+    color: blueviolet;
+}
+body{
+    margin: 0;
+    font-size: 17px;
+    background-color: rgba(105, 105, 105, 0.421);
+}
+section{
+    height: 100vb;
+    border: 1px solid gray;
+    border-radius: 20px;
+    mask-border-width: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+main{
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+    color: chocolate;
+}
+*{
+    font-family: monospace;
+}
+.submit{
+    background-color: rgb(146, 130, 238);
+    height: 50px;
+    width: 140px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+}
+.reset{
+    background-color: rgb(146, 130, 238);
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+.submit:hover{
+    background-color: goldenrod;
+    color: blueviolet;
+}
+.reset:hover{
+    background-color: goldenrod;
+    color: blueviolet;
+}
+input{
+    border: 1px solid ;
+    height: 25px;
+}
+footer{
+    background-color: black;
+    color: gray;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    position: fixed;
+    bottom: 0;
+    background-color: violet;
+    height: 70px;
+    right: 0;
+    bottom: 10px;
+    width: 70px;
+    border-radius: 50px;
+    border: black;
+    cursor: pointer;
+}
+form div{
+    margin: 5px;
+    text-align: center;
+}
+.skills2{
+    size:0cm;
+}
