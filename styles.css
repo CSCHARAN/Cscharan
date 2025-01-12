@@ -33,11 +33,12 @@ a{
     align-items: center;
     margin: 20px;
     text-align: center;
-
+    transition: background-color 1s linear 0s;
 }
 .butt:hover{
     background-color: goldenrod;
     color: blueviolet;
+    transform: translateY(-8px);
 }
 body{
     margin: 0;
